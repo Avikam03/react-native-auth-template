@@ -12,7 +12,7 @@ git clone git@github.com:Avikam03/react-native-auth-template.git
 
 2. Install dependencies.
 ```
-npm i
+npm install
 ```
 
 3. Create a [Firebase](https://console.firebase.google.com/) Project 
@@ -20,6 +20,8 @@ npm i
 4. Head over to the authentication tab on the console and enable the **Email/Password** Sign-in method
 
 5. Create a Firestore Database by heading over to the **Firestore Database** tab
+
+We're creating this database so that we can store information related to each specific user. Firebase only stores email address and password if you choose that method of authentication. To store other details like Name, Age, or any other user related data, you'd have to store the data in the database. Thus, we're using the firestore database in this template to store the Name of the User- that we make the user input on the Register page- and the role of the user, which in this case, is a standarduser. This is however completely customizable and you can add/remove properties according to your needs!
 
 6. Go to the settings of your application on Firebase and copy the firebase configurations.
 They look something like this.
