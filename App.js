@@ -22,12 +22,12 @@ import "firebase/firestore";
 
 var firebaseConfig = {
   //enter your firebase Configurations here
-    apiKey: "AIzaSyC0vLizKG6flSfiYI8U82LwZn2JAc-iixE",
-    authDomain: "react-native-auth-template.firebaseapp.com",
-    projectId: "react-native-auth-template",
-    storageBucket: "react-native-auth-template.appspot.com",
-    messagingSenderId: "253805427594",
-    appId: "1:253805427594:web:020b55c68f693553d86673"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 firebase.initializeApp(firebaseConfig);
